@@ -15,7 +15,6 @@ function App() {
     const [get, setGet] = useState<getType[]>([])
     const cleanRequestHandler = () => {
         setGet([])
-
     }
 
     useEffect(()=>{
